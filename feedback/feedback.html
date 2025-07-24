@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="form-container">
+        <h2>Formulário de Feedback</h2>
+        <form action="">
+
+            <div class="input-group">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome">
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="">
+            </div>
+
+            <div class="input-group">
+                <label for="cep">CEP</label>
+                <input type="number" name="cep">
+            </div>
+
+            <div class="input-group">
+                <label for="rua">Rua</label>
+                <input type="text" name="rua">
+            </div>
+            <div class="input-group">
+                <label for="numero">Número</label>
+                <input type="number" name="numero" id="">
+            </div>
+
+            <div class="input-group">
+                <label for="bairro">Bairro</label>
+                <input type="text" name="bairro">
+            </div>
+
+            <div class="input-group">
+                <label for="cidade">Cidade</label>
+                <input type="text" name="cidade">
+            </div>
+
+            <div class="input-group">
+                <label for="estado">Estado</label>
+                <input type="text" name="estado">
+            </div>
+
+            <div class="input-group">
+                <label for="tipo">Tipo de Feedback</label>
+                <select id="tipo" name="tipo" required>
+                    <option value="">Selecione</option>
+                    <option value="elogio">Elogio</option>
+                    <option value="sugestao">Sugestão</option>
+                    <option value="reclamacao">Reclamação</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label for="mensagem">Feedback</label>
+                <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+            </div>
+
+            <button type="submit">Enviar</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
